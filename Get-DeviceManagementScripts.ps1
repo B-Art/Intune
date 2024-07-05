@@ -67,7 +67,7 @@ Get-DeviceManagementScripts -FolderPath C:\temp -FileName myScript.ps1
     }
 }
 
-Connect-MSGraph | Out-Null
+Connect-MgGraph | Out-Null
 
 Get-DeviceManagementScripts -FolderPath C:\temp
 #Get-DeviceManagementScripts -FolderPath C:\temp -FileName myScript.ps1
